@@ -1,6 +1,6 @@
-Practical JS exercises, 12 tasks
-
 # blended-3-4
+
+Practical JS exercises, 12 tasks
 
 git clone - копіює репозиторій(папку з файлами) на компютер
 git branch "branchName" - створює гілку з назвою "branchName"
