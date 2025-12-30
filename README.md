@@ -1,24 +1,26 @@
 # blended-3-4
 
-git clone - копіює репозиторій(папку з файлами) на компютер
-git branch "branchName" - створює гілку з назвою "branchName"
-git checkout "branchName" - переходить на гілку з назвою "branchName"
-git checkout -b "branchName" - створюємо гілку з назвою "branchName" і переходимо на неї
-git add . - зберігаємо зміни в файлах
-git commit -m "commit message" - підписуємо збереженні зміни в файлах
-git push - відправляємо зміни на сайт github
-git pull - отримуємо останні зміни з сайту github
-git status - показуємо статус проекту
-git branch - показуємо список гілок в проекті
-git branch -r - показуємо список гілок на сайті github
-git branch -a - показуємо список гілок на компютері та на сайті github
-git fetch - отримуємо зміни з сайту github
-git stash - зберігаємо не збережені зміни в файлах і кладемо їх в буфер обміну
-git stash apply - вставляємо збережені зміни з буфера обміну
-git merge "banchName" - зливаємо гілку з назвою "branchName" в поточну гілку
-git merge --abort - відміняємо зливання гілок
-git branch -d branchName - видаляє гілку локально з проекту
-git push origin --delete name - видаляє гілку з сайту github
-git diff - показує відрізки рядків між двома версіями файлу (між двома комітами)
-git log - показує історію комітів
-cd gitTutorial - переходимо в папку gitTutorial
+Practical JS exercises, 12 tasks
+
+git clone - copies the repository (folder with files) to your computer  
+git branch "branchName" - creates a branch named "branchName"  
+git checkout "branchName" - switches to the branch named "branchName"  
+git checkout -b "branchName" - creates a branch named "branchName" and switches to it  
+git add . - stages changes in files  
+git commit -m "commit message" - commits staged changes with a message  
+git push - sends changes to GitHub  
+git pull - gets the latest changes from GitHub  
+git status - shows the project status  
+git branch - shows a list of branches in the project  
+git branch -r - shows a list of branches on GitHub  
+git branch -a - shows a list of branches locally and on GitHub  
+git fetch - fetches changes from GitHub  
+git stash - saves uncommitted changes in files to a temporary buffer  
+git stash apply - applies saved changes from the buffer  
+git merge "branchName" - merges the branch named "branchName" into the current branch  
+git merge --abort - cancels the branch merge  
+git branch -d branchName - deletes the branch locally  
+git push origin --delete name - deletes the branch from GitHub  
+git diff - shows differences between two versions of a file (between two commits)  
+git log - shows commit history  
+cd gitTutorial - navigates to the gitTutorial folder
